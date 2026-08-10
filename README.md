@@ -288,13 +288,7 @@ I right-clicked the new GPO and selected **Edit**.
 
 In Group Policy Management Editor, I navigated to:
 
-```text
-Computer Configuration
-└── Policies
-    └── Windows Settings
-        └── Security Settings
-            └── Public Key Policies
-```
+`Computer Configuration > Policies > Windows Settings > Security Settings > Public Key Policies`
 
 <p align="center">
   <img src="https://i.imgur.com/zio5k7z.png" width="750" alt="Opening Public Key Policies in Group Policy Management Editor">
