@@ -460,19 +460,19 @@ On the Endpoints page, I selected **These IP addresses** and added the address f
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/I5rwtGl.png" width="750" alt="Entering the local IPsec endpoint address">
+  <img src="https://i.imgur.com/zB0w961.png" width="750" alt="Entering the local IPsec endpoint address">
 </p>
 
 I added the remote endpoint address for `MS1`.
 
 <p align="center">
-  <img src="https://i.imgur.com/J8oiQW3.png" width="750" alt="Entering the remote IPsec endpoint address">
+  <img src="https://i.imgur.com/FEDvX0V.png" width="750" alt="Entering the remote IPsec endpoint address">
 </p>
 
 I reviewed both endpoint addresses before continuing.
 
 <p align="center">
-  <img src="https://i.imgur.com/VoBh5OA.png" width="750" alt="Reviewing the local and remote IPsec endpoint addresses">
+  <img src="https://i.imgur.com/AqyhVmj.png" width="750" alt="Reviewing the local and remote IPsec endpoint addresses">
 </p>
 
 #### 19. Required Authentication in Both Directions
