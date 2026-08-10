@@ -1,4 +1,4 @@
-# Active Directory Certificate Services: Computer Autoenrollment and IPsec Authentication
+# Active Directory Certificate Services: Computer Auto-enrollment and IPsec Authentication
 
 **Enterprise PKI | Computer Certificates | Group Policy Autoenrollment | Certificate-Based IPsec | Wireshark Validation**
 
@@ -244,7 +244,7 @@ The configuration completed successfully.
 
 After opening the Certification Authority console on `MS1`, I found that certificate templates were not available.
 
-This was expected behavior for a standalone CA. Standalone certification authorities do not use the Active Directory certificate templates required for domain autoenrollment. Only an enterprise CA can issue certificates based on templates stored in Active Directory Domain Services.
+After some troubleshooting, I found this as an expected behavior for a standalone CA. Standalone certification authorities do not use the Active Directory certificate templates required for domain auto-enrollment. Only an enterprise CA can issue certificates based on templates stored in Active Directory Domain Services.
 
 <p align="center">
   <img src="https://i.imgur.com/jhcersu.png" width="750" alt="Selecting Enterprise CA for Active Directory-integrated certificate services">
@@ -591,28 +591,6 @@ I repeated the Wireshark capture and confirmed that ESP packets were no longer p
 
 The comparison showed that the connection security rules were responsible for applying IPsec protection to the matching traffic.
 
-## Validation Results
-
-| Validation item | Result |
-| --- | --- |
-| AD CS role installed on `MS1` | Passed |
-| Standalone root CA configured | Passed |
-| Certificate templates available on standalone CA | No, expected behavior |
-| Enterprise root CA configured | Passed |
-| Computer certificate template available | Passed |
-| Certificate autoenrollment policy enabled | Passed |
-| Automatic Computer certificate request created | Passed |
-| Certificate GPO linked to the domain | Passed |
-| Original `gpupdate /force` command executed | Passed |
-| Computer certificate present on `MS1` | Passed |
-| Computer certificate present on Windows 10 | Passed |
-| Computer certificate present on Windows 11 | Passed |
-| Issued certificates visible on the enterprise CA | Passed |
-| Matching IPsec rules configured on both servers | Passed |
-| Quick Mode SA inspection command executed | Passed |
-| Main Mode SA inspection command executed | Passed |
-| ESP traffic captured while IPsec was enabled | Passed |
-| ESP absent after the IPsec rule was disabled | Passed |
 
 ## Key Takeaways
 
@@ -630,7 +608,3 @@ The IPsec portion showed how those certificates could be used beyond enrollment.
 - [Windows Server Printer Deployment and Secure File Sharing](https://github.com/AdeniyiAdesakin/Resource-Access-Sharing-a-printer-and-configuring-a-shared-folder)
 - [Microsoft Entra ID and On-Premises Active Directory Synchronization](https://github.com/AdeniyiAdesakin/Sync-between-MS-Entra-ID-and-On-Premises-Active-Directory)
 
----
-
-**Author:** [Adeniyi Adesakin](https://github.com/AdeniyiAdesakin)  
-**LinkedIn:** [linkedin.com/in/adeniyiadesakin](https://www.linkedin.com/in/adeniyiadesakin/)
