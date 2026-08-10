@@ -1,6 +1,6 @@
 # Active Directory Certificate Services: Computer Auto-enrollment and IPsec Authentication
 
-**Enterprise PKI | Computer Certificates | Group Policy Autoenrollment | Certificate-Based IPsec | Wireshark Validation**
+**Enterprise PKI | Computer Certificates | Group Policy Auto-enrollment | Certificate-Based IPsec | Wireshark Validation**
 
 ## Project Overview
 
