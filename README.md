@@ -592,7 +592,7 @@ I repeated the Wireshark capture and confirmed that ESP packets were no longer p
 The comparison showed that the connection security rules were responsible for applying IPsec protection to the matching traffic.
 
 
-## Key Takeaways
+## Project Outcome
 
 This project demonstrated the relationship between Active Directory, enterprise certificate templates, Group Policy, computer certificates, and IPsec.
 
