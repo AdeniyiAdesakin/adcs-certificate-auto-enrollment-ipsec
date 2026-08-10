@@ -442,7 +442,7 @@ On `ADDS-Server`, I opened **Windows Defender Firewall with Advanced Security**,
 I selected **Server-to-server** as the rule type.
 
 <p align="center">
-  <img src="https://i.imgur.com/cFf6XwA.png" width="750" alt="Selecting a server-to-server connection security rule">
+  <img src="https://i.imgur.com/1JyITpC.png" width="750" alt="Selecting a server-to-server connection security rule">
 </p>
 
 #### 18. Configured the IPsec Endpoints
@@ -450,23 +450,23 @@ I selected **Server-to-server** as the rule type.
 On the Endpoints page, I selected **These IP addresses** and added the address for the local endpoint.
 
 <p align="center">
-  <img src="https://i.imgur.com/YSKsdsJ.png" width="750" alt="Selecting specific IP addresses for the first IPsec endpoint">
+  <img src="https://i.imgur.com/p7pm9Pd.png" width="750" alt="Selecting specific IP addresses for the first IPsec endpoint">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/zB0w961.png" width="750" alt="Entering the local IPsec endpoint address">
+  <img src="https://i.imgur.com/ZVhhFf7.png" width="750" alt="Entering the local IPsec endpoint address">
 </p>
 
 I added the remote endpoint address for `MS1`.
 
 <p align="center">
-  <img src="https://i.imgur.com/FEDvX0V.png" width="750" alt="Entering the remote IPsec endpoint address">
+  <img src="https://i.imgur.com/5ZOMH3Y.png" width="750" alt="Entering the remote IPsec endpoint address">
 </p>
 
 I reviewed both endpoint addresses before continuing.
 
 <p align="center">
-  <img src="https://i.imgur.com/AqyhVmj.png" width="750" alt="Reviewing the local and remote IPsec endpoint addresses">
+  <img src="https://i.imgur.com/7xBbmxX.png" width="750" alt="Reviewing the local and remote IPsec endpoint addresses">
 </p>
 
 #### 19. Required Authentication in Both Directions
@@ -474,7 +474,7 @@ I reviewed both endpoint addresses before continuing.
 I selected **Require authentication for inbound and outbound connections**.
 
 <p align="center">
-  <img src="https://i.imgur.com/FARC08c.png" width="750" alt="Requiring authentication for inbound and outbound connections">
+  <img src="https://i.imgur.com/2U5Ogxh.png" width="750" alt="Requiring authentication for inbound and outbound connections">
 </p>
 
 This setting requires both servers to authenticate before traffic matching the rule can pass between them.
@@ -484,7 +484,7 @@ This setting requires both servers to authenticate before traffic matching the r
 On the Authentication Method page, I browsed for the trusted certification authority.
 
 <p align="center">
-  <img src="https://i.imgur.com/AtYWyMH.png" width="750" alt="Browsing for a trusted certification authority for IPsec">
+  <img src="https://i.imgur.com/8HbqJKv.png" width="750" alt="Browsing for a trusted certification authority for IPsec">
 </p>
 
 I selected the certificate authority that issued the computer certificates.
